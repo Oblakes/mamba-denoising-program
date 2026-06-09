@@ -1,4 +1,4 @@
-# QtNoiseReducer
+# mamba-denoising-program
 
 一个基于 Qt Widgets 的 WAV 音频带噪声合成与去噪程序。
 
@@ -54,6 +54,11 @@ build/QtNoiseReducer.exe
 w(n+1) = w(n) + mu * e(n) * x(n) / (||x(n)||^2 + epsilon)
 ```
 
-这里的“学习”不是机器学习训练，而是 DSP 里的在线自适应滤波。它更接近主动降噪的思想，但仍然是离线 WAV 文件处理，不是耳机硬件里的实时 ANC。
 
 处理结果会限制在 [-1.0, 1.0] 范围内，避免保存 16-bit PCM 时溢出。
+
+
+##未来发展
+1.在混合录音开头播放纯噪声5s，更新NLMS参数。
+2.结合深度学习进一步优化噪声处理
+https://github.com/Luo-Zhengding/SFANC-FxNLMS-ANC-Algorithm-based-on-Deep-Learning
