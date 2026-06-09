@@ -1,0 +1,5 @@
+C:/Users/Oblakes/Desktop/QtNoiseReducer/build_check/CMakeFiles/QtNoiseReducer.dir
+C:/Users/Oblakes/Desktop/QtNoiseReducer/build_check/CMakeFiles/edit_cache.dir
+C:/Users/Oblakes/Desktop/QtNoiseReducer/build_check/CMakeFiles/rebuild_cache.dir
+C:/Users/Oblakes/Desktop/QtNoiseReducer/build_check/CMakeFiles/QtNoiseReducer_autogen_timestamp_deps.dir
+C:/Users/Oblakes/Desktop/QtNoiseReducer/build_check/CMakeFiles/QtNoiseReducer_autogen.dir
